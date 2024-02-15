@@ -1,128 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-</head>
-<body>
-   <div class="container">
-    <div class="card mt-5">
-      <h3 class="card-header p-3">Payment for example</h3>
-      <div class="card-body">
-        <div class="alert alert-danger" role="alert">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card mt-5">
+        <h3 class="card-header p-3">Payment for example</h3>
+        <div class="card-body">
+          <div class="alert alert-danger" role="alert">
             A simple danger alert—check it out!
           </div>
-        <form class="row g-3">
-            
+          <form class="row g-3">
             <div class="col-md-5">
-              <label for="Card #" class="form-label"><Strong>Card #</Strong></label>
-              <input type="number"class="form-control" id="Card #" placeholder="XXXXXXXXXXXX" required>
+              <label for="Card #" class="form-label"
+                ><strong>Card #</strong></label
+              >
+              <input
+                type="number"
+                class="form-control"
+                id="Card #"
+                placeholder="XXXXXXXXXXXX"
+                required
+              />
             </div>
             <div class="col-md-3">
               <label for="CVC" class="form-label"><strong>CVC #</strong></label>
-              <input type="number" class="form-control" id="CVC" placeholder="0000"required>
+              <input
+                type="number"
+                class="form-control"
+                id="CVC"
+                placeholder="0000"
+                required
+              />
             </div>
             <div class="col-md-4">
-              <label for="Amount" class="form-label"><strong>Amount</strong></label>
-              <input type="text" class="form-control" id="Amount" placeholder="Amount"required>
+              <label for="Amount" class="form-label"
+                ><strong>Amount</strong></label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="Amount"
+                placeholder="Amount"
+                required
+              />
             </div>
             <div class="col-md-6">
-              <label for="Firts name" class="form-label"><strong>Firts name</strong></label>
-              <input type="text" class="form-control" id="Firts name" placeholder=""required>
+              <label for="Firts name" class="form-label"
+                ><strong>Firts name</strong></label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="Firts name"
+                placeholder=""
+                required
+              />
             </div>
             <div class="col-md-6">
-              <label for="inputAddress2" class="form-label"><strong>Last name</strong></label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder=""required>
+              <label for="inputAddress2" class="form-label"
+                ><strong>Last name</strong></label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress2"
+                placeholder=""
+                required
+              />
             </div>
             <div class="col-md-6">
-              <label for="inputCity" class="form-label"><strong>City</strong></label>
-              <input type="text" class="form-control" id="inputCity">
+              <label for="inputCity" class="form-label"
+                ><strong>City</strong></label
+              >
+              <input type="text" class="form-control" id="inputCity" />
             </div>
             <div class="col-md-4">
-              <label for="inputState" class="form-label"><strong>State</strong></label>
+              <label for="inputState" class="form-label"
+                ><strong>State</strong></label
+              >
               <select id="inputState" class="form-select">
                 <option selected>Pick a state</option>
                 <option value="1">Alabama</option>
-        <option value="2">Alaska</option>
-        <option value="3">Arizona</option>
-        <option value="4">Arkansas</option>
-        <option value="5">California</option>
-        <option value="6">Colorado</option>
-        <option value="7">Connecticut</option>
-        <option value="8">Delaware</option>
-        <option value="9">Florida</option>
-        <option value="10">Georgia</option>
-        <option value="11">Hawaii</option>
-        <option value="12">Idaho</option>
-        <option value="13">Illinois</option>
+                <option value="2">Alaska</option>
+                <option value="3">Arizona</option>
+                <option value="4">Arkansas</option>
+                <option value="5">California</option>
+                <option value="6">Colorado</option>
+                <option value="7">Connecticut</option>
+                <option value="8">Delaware</option>
+                <option value="9">Florida</option>
+                <option value="10">Georgia</option>
+                <option value="11">Hawaii</option>
+                <option value="12">Idaho</option>
+                <option value="13">Illinois</option>
               </select>
             </div>
             <div class="col-md-2">
-              <label for="inputZip" class="form-label"><strong>Postal code</strong></label>
-              <input type="text" class="form-control" id="inputZip">
+              <label for="inputZip" class="form-label"
+                ><strong>Postal code</strong></label
+              >
+              <input type="text" class="form-control" id="inputZip" />
             </div>
-            
+
             <div class="col-md-6">
-              
-              <label for="We accept" class="form-label"><strong>We accept</strong></label><br>
+              <label for="We accept" class="form-label"
+                ><strong>We accept</strong></label
+              ><br />
               <div class="col-md-6 bg-secondary p-1 rounded-1">
-            <div class="form-check form-check-inline my-2 mx-2">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1"><i class="bi bi-credit-card"></i></label>
-            </div>
-          
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-              <label class="form-check-label" for="inlineRadio2"><i class="bi bi-wallet"></i></label>
-            </div>
-            
-            <div class="form-check form-check-inline">
-              
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-              <label class="form-check-label" for="inlineRadio3"><i class="bi bi-paypal"></i></label>
-              <div class="form-check form-check-inline">
-              
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                <label class="form-check-label" for="inlineRadio3"><i class="bi bi-credit-card-2-front"></i></label>
+                <div class="form-check form-check-inline my-2 mx-2">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio1"
+                    value="option1"
+                  />
+                  <label class="form-check-label" for="inlineRadio1"
+                    ><i class="bi bi-credit-card"></i
+                  ></label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio2"
+                    value="option2"
+                  />
+                  <label class="form-check-label" for="inlineRadio2"
+                    ><i class="bi bi-wallet"></i
+                  ></label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio3"
+                    value="option3"
+                  />
+                  <label class="form-check-label" for="inlineRadio3"
+                    ><i class="bi bi-paypal"></i
+                  ></label>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="inlineRadio3"
+                      value="option3"
+                    />
+                    <label class="form-check-label" for="inlineRadio3"
+                      ><i class="bi bi-credit-card-2-front"></i
+                    ></label>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        
-          </div>
-           <!--Message-->
-          <div class="col-6">
-            <label for="floatingTextarea2" class="form-label"><strong>Message</strong></label>
-            <div class="form-floating">
-              
-              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-              <label for="floatingTextarea2"></label>
-            </div>
-        
-          </div>
-            <div class="col-12">
-              
-              
+            <!--Message-->
+            <div class="col-6">
+              <label for="floatingTextarea2" class="form-label"
+                ><strong>Message</strong></label
+              >
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
+                <label for="floatingTextarea2"></label>
+              </div>
             </div>
           </form>
         </div>
         <div class="card-footer text-body-secondary p-3">
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button class="btn btn-secondary me-md-2" type="submit">Cancel</button>
-                <input class="btn btn-primary" type="submit" value="Send">
-              </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-secondary me-md-2" type="submit">
+              Cancel
+            </button>
+            <input class="btn btn-primary" type="submit" value="Send" />
           </div>
         </div>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-        </body>
-        </html>
-        
-      
-      
-    
-      
-      
-  
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
